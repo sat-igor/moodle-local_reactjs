@@ -1,5 +1,5 @@
 # moodle-local_reactjs
-Moodle ReactJS - gives you ability to use ReactJS inside any moodle page.
+Moodle ReactJS - the gives you ability to use ReactJS inside any moodle page.
 
 ## Note for devs:
 
@@ -43,7 +43,7 @@ can use them in your code following this example:
     export default App;
 
 Also, you need to add required libraries to the `index.d.ts` file 
-so TypeScript won't give you any errors during build process:
+so TypeScript won't give you any errors during the build process:
 
     declare module 'core/str' {
         const call: any;
